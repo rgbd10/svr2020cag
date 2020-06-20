@@ -2,6 +2,8 @@
 
 <img src="./rsc/pointCloud.gif" alt="gif point cloud" width="300"/>
 
+The use of low-cost RGB-D sensors became popular with the release of Microsoft Kinect V1, in 2010. From that time on, different companies such as ASUS, Orbbec, and Intel have developed their solutions for capturing 3D data. This work proposes an analysis of how well 10 RGB-D sensors perform while applied to a 3D reconstruction task. The comparison was possible by using COMAU's e.Do robotic Arm for ensuring all sensors performed the same set of 3 different paths while capturing RGB and Depth data from the test environment. A customized version of RTAB-map, an open-source solution for real-time appearance-based mapping, was developed so that all ten sensors were supported by the same tool for capturing data, since RTAB-map's original data recorder module did not support Astra Pro device and Realsense devices were not included in the tool. All evaluations were performed in a controlled indoor scenario, built to address different characteristics on the same scene: highly texturized regions, poorly texturized regions, close and far objects. Almost 20GB of data was collected and is available as a public dataset for future comparison of 3D reconstruction algorithms that receive input from different RGB-D sensors.
+
 ## Evaluated sensors:
 
 1. Orbecc Astra 
