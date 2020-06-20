@@ -1,4 +1,4 @@
-# Comparison of 10 RGB-D sensors regarding 3D reconstruction applications.
+# Comparison of 10 RGB-D sensors regarding 3D reconstruction applications
 
 <img src="./rsc/pointCloud.gif" alt="gif point cloud" width="300"/>
 
